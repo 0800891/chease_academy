@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>チーズアカデミー</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body class="bg-gray-100 text-md w-300">
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+  <!-- <header class="w-1/3 flex items-center h-16 bg-no-repeat bg-cover bg-center bg-[url('img/header_logo.png')]"> -->
+  <header class="flex flex-row w-full justify-between">
+    <!-- <div class="w-1/2 flex items-center h-11 m-4 p-2 bg-no-repeat bg-cover bg-center bg-[url('img/header_logo.png')]"></div> -->
+    <div class="w-1/2 flex flex-col w-full ms-12 p-0 bg-left bg-no-repeat bg-[url('img/header_logo.png')]"></div>
+    <div class="my-12 me-24 p-0.5" >
+      <ul class="flex flex-row justify-end">
+        <li><a href="#About" class="me-0.5 hover:text-red-500 text-[21px]">ABOUT</a></li>
+        <li><a href="#Course" class="ms-12 me-0.5 hover:text-red-500 text-[21px]">COURSE</a></li>
+        <li class="text-right"><a href="#News" class="ms-12 me-0.5 hover:text-red-500 text-[21px]">NEWS</a></li>
+        <li class="text-right"><a href="#Access" class="ms-12 me-0.5 hover:text-red-500 text-[21px]">ACCESS</a></li>
+        <li><a href="#Contact" class="ms-12 me-0.5 hover:text-red-500 text-[21px]">CONTACT</a></li>
+      </ul>
+    </div>
+    
+  </header>
+<main>
+  <h1 class="h-96">
+    <div class="h-full bg-auto bg-full bg-cover bg-no-repeat bg-[url('img/mainbg.png')]">
+      <ul class = "h-full flex flex-col items-center justify-center m-4">
+        <li><p class="text-white text-[40px] m-0.5">セカイを変えるチーズを作ろう</p></li>
+        <li><p class="text-white text-[30px] m-7">チーズ職人養成学校「チーズアカデミーTOKYO」</p></li>
+      </ul>
+    </div>
+  </h1>
+    <section id="right" class="w-full">
+      <section class="flex flex-col items-center">
+        <a id="About" class="mt-14 mb-7 pt-1 pb-0.5 text-[24px] text-yellow-500">ABOUT</a>
+        <div>
+          <ul class="flex flex-col items-center w-full">
+            <li class="mb-1"><a href="" class="text-[18px]">チーズアカデミーについて</a></li>
+            <li class="mt-14"><a href="" class="text-[16px]">チーズアカデミーは、チーズ職人養成学校です。</a></li>
+            <li><a href="" class="text-[16px]">チーズの素晴らしさを、自給自足を通じて、できるだけ多くの人に知っていただきたい。</a></li>
+            <li class="mb-10"><a href="" class="text-[16px]"></a>そして、食卓にはいつもチーズがあった、あの頃の当たり前をこの手で取り戻したい。</a></li>
+            <li class="mb-10"><a href="" class="text-[16px]">そんな思いから、チーズ職人養成学校「チーズアカデミーTOKYO」は歩みを始めています。</a></li>
+            <li class="mb-20"><a href="" class="text-[16px]">卒業後、チーズ自給自足のバックアップはもちろんのこと、
+              チーズ職人への就職・転職もサポートします。</a></li>
+            <img src="img/about_images.png" alt="">
+            
+          </ul>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center">
+        <a id="Course" class="mt-14 mb-7 pt-1 pb-0.5 text-[24px] text-yellow-500">COURSE</a>
+        <div>
+          <p  class="text-[18px]">未経験からでもスタートができるよう、カリキュラムは多くの専門家や
+            現役チーズ職人のアドバイスのもと、作られました。</p>
+          <!-- <img src="img/course_01.jpg" alt="" class="w-64"> -->
+        </div>
+        <div>
+          <table>
+            <tr>
+              <th class="w-1/2"><img src="img/course_01.jpg" alt="" class="w-128"></th>
+              <th class="">
+                <ul class="flex flex-col justify-center">
+                  <li class="text-[24px] mb-10"><a href="">本格的な農園を使った実地研修</a></li>
+                  <li class="items-left font-light ms-12 ps-0.5"><a href="">チーズアカデミーでは、本格的な農園を使った実地研修を
+                    行うことができます。プロとして活躍するチーズ職人も
+                    使用するような、広大で環境も整った農園を余すところ
+                    なく使い、卒業時には本格的なチーズを自分の力で作れる
+                    実践力の養成を目指します。</a></li>
+                </ul>
+              </th>
+            </tr>
+            <tr>
+              <th class="">
+                <ul class="flex flex-col justify-center">
+                  <li class="text-[24px] mb-10"><a href="">必要な知識もしっかりと取得</a></li>
+                  <li class="items-right font-light me-12 pe-0.5"><a href="">チーズ作りには、しっかりとした食に関する知識が
+                    欠かせません。チーズアカデミーでは、一流講師陣による、
+                    チーズ作りに必要ないろはを余すところなく学べます。
+                    チーズそのものでなく、栄養学全般を学ぶことも
+                    可能ですので、チーズ以外への展開も夢ではないでしょう。</a></li>
+                </ul>
+              </th>
+              <th class="w-1/2"><img src="img/course_02.jpg" alt="" class="w-128"></th>
+            </tr>
+            <tr>
+              <th class="w-1/2"><img src="img/course_03.jpg" alt="" class="w-128"></th>
+              <th>
+                <ul class="flex flex-col justify-center">
+                  <li class="text-[24px] mb-10"><a href="">卒業制作はティスティング審査あり</a></li>
+                  <li class="items-left font-light ms-12 ps-0.5"><a href="">チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。
+                    卒業制作として、チーズ作りを実際に行います。卒業後、
+                    一般参加によるティスティング審査があるため、作り手の
+                    目線だけでなく、消費者の目線から、卒業制作作品としての
+                    チーズを、しっかりと評価いただくことができます。</a></li>
+                </ul>
+              </th>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center">
+        <a id="News" class="mt-14 mb-7 pt-1 pb-0.5 text-[24px] text-yellow-500">NEWS</a>
+        <h3 class="mb-14 pb-1">ニュース</h3>
+        <div class="flex flex-row">
+          <ul class="flex flex-col w-80 p-2 hover:opacity-50">
+            <li>
+              <img src="img/news_img.jpg" alt="" class="w-full" >
+              
+            <li class="mt-8 mb-6"><a href="" >2016/11/18</a></li>
+            <li><a href=""></a>チーズアカデミー卒業生のコスゲさんによる
+              チーズだけをふんだんに使用した話題のピザ屋
+              「Kosuge Pizza」が渋谷でオープンしました!</li>
+          </ul>
+
+          <ul class="flex flex-col w-80 p-2 hover:opacity-50">
+            <li>
+              <img src="img/news_img.jpg" alt="" class="w-full" >
+            </li>
+            <li class="mt-8 mb-6"><a href="" >2016/11/18</a></li>
+            <li><a href=""></a>チーズアカデミー卒業生のコスゲさんによる
+              チーズだけをふんだんに使用した話題のピザ屋
+              「Kosuge Pizza」が渋谷でオープンしました!</li>
+          </ul>
+
+
+          <ul class="flex flex-col w-80 p-2 hover:opacity-50">
+            <li>
+              <img src="img/news_img.jpg" alt="" class="w-full" >
+            </li>
+            <li class="mt-8 mb-6"><a href="" >2016/11/18</a></li>
+            <li><a href=""></a>チーズアカデミー卒業生のコスゲさんによる
+              チーズだけをふんだんに使用した話題のピザ屋
+              「Kosuge Pizza」が渋谷でオープンしました!</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center">
+        <h2 class="my-14 py-1 w-80 h-14 flex flex-col items-center justify-center text-[18px] text-yellow-500 hover:text-white hover:bg-yellow-500">MORE</h2>
+        <a id="Access" class="mt-14 pt-1 mb-7 pb-0.5">ACCESS</a>
+        <h3 class="mb-14 pb-1">会社情報</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12965.702581230913!2d139.69535955541997!3d35.66652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9fbac64575%3A0x92140348f11b22e6!2z5p2x5Lqs44Oq44K544Oe44OB44OD44Kv44ixIOmdkuWxseihqOWPgumBkw!5e0!3m2!1sja!2sjp!4v1713623070805!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="m-7 p-0.5"></iframe>
+        <div class="flex justify-center">
+         <ul class="my-14 py-1 w-full">
+          <li class="h-12 flex items-center">
+            <p class="w-1/4 text-[16px]">学校名</p>
+            <p class="text-[16px]">チーズアカデミーTOKYO</p>
+          </li>
+          <li class="h-12 flex items-center">
+            <p class="w-1/4 text-[16px]">事務所所在地</p> 
+            <p class="text-[16px]">〒107-0061東京都港区北青山3-5-6 青朋ビル2F</p>
+          </li>
+          <li class="h-12 flex items-center">
+            <p class="w-1/4 text-[16px]">TEL</p> 
+            <p class="text-[16px]">03-5413-5045</p>
+          </li>
+          <li class="h-12 flex items-center">
+            <p class="w-1/4 text-[16px]">FAX</p> 
+            <p class="text-[16px]">03-5413-5046</p>
+          </li>
+          <li class="h-12 flex items-center">
+            <p class="w-1/4 text-[16px]">MAIL</p> 
+            <p class="text-[16px]">dummy@cheeseacademy.tokyo</p>
+          </li>
+         </ul>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center w-full">
+        <a id="Contact" class="mt-14 py-t w-80 h-14 flex flex-col items-center justify-center text-[18px] text-black hover:text-white hover:bg-yellow-500">CONTACT</a>
+        <h2 class="my-7 py-0.5">説明会お申し込み・お問い合わせ</h2>
+        <div class="w-80">
+          <ul>
+            <li class="my-7 py-0.5"><a href="">ぜひ1度、足を運んでみませんか。
+              説明会は随時開催中。
+              その他、お問い合わせもお気軽にどうぞ。お待ちしております。</a></li>
+            <li class="mb-17 pb-0.5"><a href="">※チーズアカデミーは実際には存在しません。
+              間違っても問い合わせしないようお願いいたします。</a></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="flex justify-center">
+          <form action="#" method="post" class="w-82">
+            <table>
+              <tr class="border-t-2 border-slate-400">
+                <th class="font-light w-60 h-9 ps-4 pe-8 flex justify-left place-items-center">名前</th>
+                <td class="w-100 ps-2 py-2 border-s-2 border-slate-400"><input name="name" type="text" class="w-100"></td>
+              </tr>
+              <tr class="border-t-2 border-slate-400">
+                <th class="font-light w-60 h-9 ps-4 py-2 pe-8 flex justify-left">カナ</th>
+                <td class="w-100 ps-2 py-2 border-s-2 border-slate-400"><input name="kana" type="text"></td>
+              </tr>
+              <tr class="border-t-2 border-slate-400">
+                <th class="font-light w-60 h-9 ps-4 pe-8 flex justify-left place-items-center">メールアドレス</th>
+                <td class="w-100 border-s-2 border-slate-400 ps-2 py-2"><input name="mail" type="email"></td>
+              </tr>
+              <tr class="border-t-2 border-slate-400">
+                <th class="font-light w-60 h-9 ps-4 pe-8 place-items-left ">チーズアカデミーを知ったきっかけ</th>
+                <td class="w-100 ps-2 py-2 border-s-2 border-slate-400">
+                  <label>
+                    <select name="" id="">
+                      <option selected>選んでください</option>
+                      <option>google検索</option>
+                      <option>SNS</option>
+                      <option>紹介</option>
+                      <option>たまたま通りかかった</option>
+                      <option>その他</option>
+                    </select>
+                  </label>
+                </td>
+              </tr>
+              <tr class="border-t-2 border-slate-400">
+                <th class="font-light border-r-2 border-slate-400 w-60 ps-4 pe-8">志望動機</th>
+                <td class="flex flex-col w-100 ps-2 py-2">
+                  <div class="pb-3">
+                    <input id="radio01" type="radio" name="sample1" value="1"><label for="radio01">起業をしたい</label>
+                  </div>
+                  <div class="py-3">
+                    <input id="radio02" type="radio" name="sample2" value="2"><label for="radio02" class="py=6">チーズ系企業に就職・転職したい</label>
+                  </div>
+                  <div class="py-3">
+                    <input id="radio03" type="radio" name="sample3" value="3"><label for="radio03">チーズと関わる仕事をしており、仕事に活かしたい</label>
+                  </div>
+                  <div class="pt-3">
+                    <input id="radio04" type="radio" name="sample4" value="4"><label for="radio04">チーズの教養を身に付けたい</label>
+                  </div>
+                </td>
+
+              </tr>
+              <tr class="border-y-2 border-slate-400">
+                <th class="font-light  w-60 ps-4 pe-8 flex justify-left">詳細</th>
+                <td class="w-100 ps-2 py-2 border-s-2 border-slate-400"><textarea name="other" id="" cols="25" rows="10"></textarea></td>
+              </tr>
+
+            </table>
+            <!-- <h2 class="mt-14 mb-7 pt-1 pb-0.5 text-[24px] text-yellow-500">送信</h2> -->
+            <div class="flex flex-col justify-center place-items-center my-7 py-0.5">
+              <button type="button" class="text-[24px] bg-yellow-500 w-80 text-white">送信</button>
+
+            </div>
+            
+          </form>
+        </div>
+        
+      </section>
+    </section>
+
+</main>
+ <footer>
+  <div class="flex flex-col justify-center place-items-center w-full mt-24 py-3">
+    <p class="bg-gray-600 text-white w-full h-16 flex justify-center place-items-center text-[12px]">copyrights 2016 Cheeese Academy Tokyo All RIghts Reserved.</p>
+
+  </div>
+  </footer>
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
